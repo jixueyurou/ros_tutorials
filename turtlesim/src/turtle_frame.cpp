@@ -51,7 +51,7 @@ TurtleFrame::TurtleFrame(QWidget* parent, Qt::WindowFlags f)
 , private_nh_("~")
 {
   setFixedSize(500, 500);
-  setWindowTitle("TurtleSim");
+  setWindowTitle("龟龟");
 
   srand(time(NULL));
 
